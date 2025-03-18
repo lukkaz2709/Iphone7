@@ -2,7 +2,7 @@
 // Classe principal para testar o iPhone
 public class main {
     public static void main(String[] args) {
-        iPhone myPhone = new iPhone();
+        Iphone myPhone = new Iphone();
         
         // Testando reprodutor musical
         myPhone.playMusic("Imagine - John Lennon");
@@ -15,7 +15,7 @@ public class main {
         myPhone.endCall();
 
         // Testando navegador de internet
-        myPhone.openPage("https://www.apple.com");
+        myPhone.openPage("https://www.youtube.com/watch?v=9ou608QQRq8");
         myPhone.refreshPage();
         myPhone.closePage();
     }

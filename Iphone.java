@@ -1,5 +1,5 @@
 // Classe iPhone que implementa todas as funcionalidades
-class iPhone implements ReprodutorMusical, AparelhoTelefonico, WebBrowser {
+class Iphone implements ReprodutorMusical, AparelhoTelefonico, WebBrowser {
     
     @Override
     public void playMusic(String song) {
